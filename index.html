@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dom Veka — Современные дома в ЛО и СПб</title>
+  <meta name="description" content="Dom Veka — строительство современных домов в Ленинградской области и Санкт-Петербурге. Индивидуальные проекты, высокое качество, разумные цены." />
+  <meta name="author" content="Dom Veka" />
+  <!-- Цвет системы под темы -->
+  <meta name="theme-color" content="#f3f4f6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1524" media="(prefers-color-scheme: dark)">
+  <meta id="dynamic-theme-color" name="theme-color" content="#f3f4f6">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!-- Шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" media="all" />
+  <link rel="canonical" href="https://ваш-сайт.github.io/" />
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Dom Veka — Современные дома в ЛО и СПб" />
+  <meta property="og:description" content="Индивидуальные проекты домов. Качество, стиль, комфорт." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://ваш-сайт.github.io/house1.jpg" />
+  <meta property="og:url" content="https://ваш-сайт.github.io/" />
+  <meta property="og:site_name" content="Dom Veka" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dom Veka — Современные дома в ЛО и СПб" />
+  <meta name="twitter:description" content="Индивидуальные проекты, высокое качество, разумные цены." />
+  <meta name="twitter:image" content="https://ваш-сайт.github.io/house1.jpg" />
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dom Veka",
+    "url": "https://ваш-сайт.github.io/",
+    "logo": "https://ваш-сайт.github.io/logo.png",
+    "email": "infodomveka@mail.ru",
+    "telephone": "+7-921-424-39-39",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Санкт-Петербург",
+      "addressRegion": "Ленинградская область",
+      "addressCountry": "RU"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Dom Veka",
+    "url":"https://ваш-сайт.github.io/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://ваш-сайт.github.io/?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: Products -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Product",
+        "name":"Проект 46",
+        "category":"Дом",
+        "brand":{"@type":"Brand","name":"Dom Veka"},
+        "url":"https://ваш-сайт.github.io/#p1",
+        "image":"https://ваш-сайт.github.io/house1.jpg",
+        "description":"Одноэтажный современный дом, 180 м²: 4 спальни (включая мастер-спальню), кухня-гостиная с выходом на террасу, 3 санузла. Цена от 30 000 000 ₽; зависит от участка.",
+        "offers":{"@type":"AggregateOffer","priceCurrency":"RUB","lowPrice":"30000000","highPrice":"48000000","availability":"https://schema.org/InStock"}
+      },
+      {
+        "@type":"Product",
+        "name":"Проект 180",
+        "category":"Дом",
+        "brand":{"@type":"Brand","name":"Dom Veka"},
+        "url":"https://ваш-сайт.github.io/#p2",
+        "image":"https://ваш-сайт.github.io/house2.jpg",
+        "description":"Одноэтажный дом из газобетона, 135 м²: 3 спальни (включая мастер-спальню), кухня-гостиная с выходом на террасу, панорамные окна, 2 санузла.",
+        "offers":{"@type":"AggregateOffer","priceCurrency":"RUB","lowPrice":"20000000","highPrice":"28000000","availability":"https://schema.org/InStock"}
+      },
+      {
+        "@type":"Product",
+        "name":"Проект 175",
+        "category":"Дом",
+        "brand":{"@type":"Brand","name":"Dom Veka"},
+        "url":"https://ваш-сайт.github.io/#p3",
+        "image":"https://ваш-сайт.github.io/house3.jpg",
+        "description":"Одноэтажный дом из газобетона в современном стиле. 200 м²: кухня-гостиная с выходом на террасу, мастер-спальня, всего 3 спальни и 3 санузла.",
+        "offers":{"@type":"AggregateOffer","priceCurrency":"RUB","lowPrice":"30000000","highPrice":"38000000","availability":"https://schema.org/InStock"}
+      },
+      {
+        "@type":"Product",
+        "name":"Проект Полевая",
+        "category":"Дом",
+        "brand":{"@type":"Brand","name":"Dom Veka"},
+        "url":"https://ваш-сайт.github.io/#p4",
+        "image":"https://ваш-сайт.github.io/polevaya1.jpg",
+        "description":"Одноэтажный дом из газобетона в современном стиле, 150 м². 3 спальни, мастер-спальня, 2 санузла, кухня-гостиная, терраса. Стоимость без отделки от 15 млн ₽; бюджет зависит от участка (деревня Дранишники).",
+        "offers":{"@type":"AggregateOffer","priceCurrency":"RUB","lowPrice":"15000000","availability":"https://schema.org/InStock"}
+      },
+      {
+        "@type":"Product",
+        "name":"Проект 32",
+        "category":"Дом",
+        "brand":{"@type":"Brand","name":"Dom Veka"},
+        "url":"https://ваш-сайт.github.io/#p5",
+        "image":"https://ваш-сайт.github.io/p32_1.jpg",
+        "description":"Двухэтажный дом из газобетона в современном стиле, 250 м². 7 спален, мастер-спальня, 3 санузла, кухня-гостиная, терраса.",
+        "offers":{"@type":"AggregateOffer","priceCurrency":"RUB","lowPrice":"25000000","availability":"https://schema.org/InStock"}
+      },
+      {
+        "@type":"Product",
+        "name":"Проект Скандинавия",
+        "category":"Дом",
+        "brand":{"@type":"Brand","name":"Dom Veka"},
+        "url":"https://ваш-сайт.github.io/#p6",
+        "image":"https://ваш-сайт.github.io/skandi1.jpg",
+        "description":"Двухэтажный дом из газобетона в современном стиле, 135 м². 3 спальни (включая мастер-спальню), 2 санузла, кухня-гостиная, терраса. Дранишники, 8 соток. Бюджет без отделки от 15 000 000 ₽; цена зависит от участка.",
+        "offers":{"@type":"AggregateOffer","priceCurrency":"RUB","lowPrice":"15000000","availability":"https://schema.org/InStock"}
+      }
+    ]
+  }
+  </script>
+
+  <style>
+  /* ==========================
+     Пастельная палитра + акценты
+     ========================== */
+  :root{
+    /* Светлая тема — «Сканди-небо» */
+    --bg:#f3f4f6;
+    --text:#2f3441;
+    --muted:#6b7280;
+    --card:#ffffff;
+    --border:#e5e7eb;
+    --accent:#9bb8d3;
+    --accent-contrast:#0e2238;
+    --focus:#b7d5ea;
+    --shadow:rgba(20, 28, 40, .12);
+    --shadow-soft:0 8px 24px rgba(20,28,40,.10);
+    --hero-overlay:linear-gradient(180deg, rgba(20,28,40,.45), rgba(20,28,40,.24), rgba(20,28,40,0));
+    --nav-bg:rgba(255,255,255,.82);
+    --safe-bottom:env(safe-area-inset-bottom, 0px);
+    --theme-color:#f3f4f6;
+    /* Тонированный фон секций */
+    --section-bg: color-mix(in srgb, var(--card) 92%, var(--accent) 8%);
+    --section-ring: color-mix(in srgb, var(--border) 70%, var(--accent) 30%);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      /* Тёмная пастель */
+      --bg:#0e1524;
+      --text:#e8edf4;
+      --muted:#a7b1c2;
+      --card:#121a2c;
+      --border:#1f2a3b; /* fixed typo */
+      --accent:#a7c7e7;
+      --accent-contrast:#0b1422;
+      --focus:#bcd8ee;
+      --shadow:rgba(0,0,0,.35);
+      --shadow-soft:0 10px 28px rgba(0,0,0,.28);
+      --hero-overlay:linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.32), rgba(0,0,0,.08));
+      --nav-bg:rgba(18,26,44,.72);
+      --theme-color:#0e1524;
+      --section-bg: color-mix(in srgb, var(--card) 86%, var(--accent) 14%);
+      --section-ring: color-mix(in srgb, var(--border) 60%, var(--accent) 40%);
+    }
+  }
+
+  /* Принудительное управление темой (через data-theme) */
+  [data-theme="light"]{
+    --bg:#f3f4f6; --text:#2f3441; --muted:#6b7280; --card:#fff; --border:#e5e7eb;
+    --accent:#9bb8d3; --accent-contrast:#0e2238; --shadow:rgba(20, 28, 40, .12);
+    --focus:#b7d5ea; --hero-overlay:linear-gradient(180deg, rgba(20,28,40,.46), rgba(20,28,40,.24), rgba(20,28,40,0));
+    --nav-bg:rgba(255,255,255,.86); --theme-color:#f3f4f6; --shadow-soft:0 8px 24px rgba(20,28,40,.10);
+    --section-bg: color-mix(in srgb, var(--card) 92%, var(--accent) 8%);
+    --section-ring: color-mix(in srgb, var(--border) 70%, var(--accent) 30%);
+  }
+  [data-theme="dark"]{
+    --bg:#0e1524; --text:#e8edf4; --muted:#a7b1c2; --card:#121a2c; --border:#1f2a3b;
+    --accent:#a7c7e7; --accent-contrast:#0b1422; --shadow:rgba(0,0,0,.35);
+    --focus:#bcd8ee; --hero-overlay:linear-gradient(180deg, rgba(0,0,0,.58), rgba(0,0,0,.34), rgba(0,0,0,.08));
+    --nav-bg:rgba(18,26,44,.74); --theme-color:#0e1524; --shadow-soft:0 10px 28px rgba(0,0,0,.28);
+    --section-bg: color-mix(in srgb, var(--card) 86%, var(--accent) 14%);
+    --section-ring: color-mix(in srgb, var(--border) 60%, var(--accent) 40%);
+  }
+
+  /* Базовая типографика и фон */
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation:none !important;transition:none !important;}
+  }
+  body{
+    margin:0; font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.6; color-scheme:light dark;
+  }
+
+  /* Ссылки и фокус */
+  a{color:inherit; text-decoration:none;}
+  a:hover{text-decoration:underline; text-underline-offset:2px;}
+  a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{
+    outline:2px solid var(--focus); outline-offset:3px; border-radius:6px;
+  }
+
+  /* Вспомогательное */
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+
+  /* Прогресс-бар: управляем transform из JS */
+  .progress{
+    position:fixed;top:0;left:0;height:3px;width:100%;
+    background:linear-gradient(90deg, color-mix(in srgb, var(--accent) 90%, #10b981 10%), color-mix(in srgb, var(--accent) 80%, #22d3ee 20%), color-mix(in srgb, var(--accent) 70%, #10b981 30%));
+    transform-origin:0 0; transform:scaleX(0); z-index:9999;
+    transition: transform .15s ease-out;
+  }
+
+  /* Хиро */
+  header.hero{
+    position:relative;overflow:hidden;color:#fff;text-align:center;
+    min-height:clamp(360px,60vh,720px);display:grid;place-items:center;
+  }
+  header.hero::before{content:"";position:absolute;inset:0;background:var(--hero-overlay);z-index:1;}
+  .hero-media{position:absolute;inset:0;z-index:0;}
+  .hero-media img{width:100%;height:100%;object-fit:cover;filter:saturate(1.02) contrast(1.02) brightness(0.9);transform:scale(1.03);}
+  .hero-content{position:relative;z-index:2;padding:clamp(24px,4vw,48px) 20px;}
+  h1{font-size:clamp(1.8rem,4.2vw,2.8rem);margin:0 0 8px;}
+  .tagline{font-size:clamp(1rem,2.2vw,1.2rem);margin:0 0 16px;color:#f0f3f6;}
+  header .theme-toggle{
+    position:absolute;right:16px;top:16px;background:var(--accent);color:var(--accent-contrast);
+    border:none;padding:10px 12px;border-radius:24px;cursor:pointer;font-weight:600;box-shadow:0 2px 10px var(--shadow);z-index:2;
+  }
+  header .theme-toggle[aria-pressed="true"]{filter:brightness(.98);}
+
+  /* Логотип */
+  .brand-logo{display:inline-flex;align-items:center;justify-content:center;padding:10px 12px;border-radius:18px;
+    background: color-mix(in srgb, #000 10%, transparent);backdrop-filter:saturate(1.1) blur(2px);
+    box-shadow:0 6px 20px rgba(0,0,0,.18);margin-bottom:10px;transform:translateY(0);
+    transition:transform .25s ease, box-shadow .25s ease, background .25s ease;animation:logo-pop .55s cubic-bezier(.2,.7,.2,1) .12s both;
+  }
+  .brand-logo:hover{transform:translateY(-2px); box-shadow:0 10px 26px rgba(0,0,0,.22);}
+  .logo-img{width:clamp(140px, 28vw, 240px);height:auto;display:block;border-radius:14px;
+    filter:drop-shadow(0 8px 18px rgba(0,0,0,.20));transition:transform .25s ease, filter .25s ease;
+  }
+  .brand-logo:hover .logo-img{transform:scale(1.02); filter:saturate(1.04) drop-shadow(0 10px 22px rgba(0,0,0,.24));}
+
+  /* Навигация */
+  nav{
+    background:var(--nav-bg); border-bottom:1px solid var(--border);
+    position:sticky; top:0; z-index:10; backdrop-filter:saturate(1.1) blur(10px);
+    transition:transform .28s ease, background .2s ease;
+  }
+  nav.nav-hidden{transform:translateY(-110%);}
+  nav ul{display:flex;justify-content:center;flex-wrap:wrap;list-style:none;margin:0;padding:10px;gap:10px 18px;}
+  nav ul li a{font-weight:600;padding:6px 10px;border-radius:8px;}
+  nav ul li a:hover{background:color-mix(in srgb, var(--card) 82%, var(--accent) 18%); text-decoration:none;}
+
+  /* Секции — «карточки» */
+  section{
+    padding:clamp(28px,4vw,48px) 20px; max-width:1100px; margin:16px auto;
+    content-visibility:auto; contain-intrinsic-size:600px;
+    background:var(--section-bg);
+    border:1px solid var(--section-ring);
+    border-radius:16px;
+    box-shadow: var(--shadow-soft);
+  }
+  h2{
+    font-size:clamp(1.3rem,3vw,1.8rem);margin-bottom:16px; position:relative;
+    padding-bottom:6px;
+  }
+  h2::after{
+    content:""; position:absolute; left:0; bottom:0; width:64px; height:4px;
+    background: color-mix(in srgb, var(--accent) 80%, var(--border) 20%);
+    border-radius:2px;
+  }
+  .subtle{color:var(--muted);}
+
+  /* Галерея и карточки */
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;}
+  .gallery[role="list"] > article[role="listitem"]{list-style:none;}
+  .gallery.compact .card-img-wrap img.card-img{max-height:150px;}
+  @media (max-width:600px){ .gallery.compact .card-img-wrap img.card-img{max-height:130px;} }
+
+  .card{
+    background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;
+    box-shadow:0 2px 10px var(--shadow);transform-style:preserve-3d;transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .card:hover{
+    transform:translateY(-3px) perspective(800px) rotateX(1deg) rotateY(-1deg);
+    box-shadow:0 10px 26px var(--shadow);
+    border-color: color-mix(in srgb, var(--border) 60%, var(--accent) 40%);
+  }
+
+  /* Обёртка изображения + карусель */
+  .card-img-wrap{
+    position:relative;overflow:hidden;background:color-mix(in srgb, var(--card) 90%, var(--accent) 10%);
+    touch-action: pan-y;
+  }
+  [data-theme="dark"] .card-img-wrap { background:#f4f1ee; }
+  @media (prefers-color-scheme: dark){
+    :root .card-img-wrap { background:#f4f1ee; }
+  }
+  .card-img{display:block;width:100%;height:auto;max-height:220px;object-fit:contain;object-position:center;background:transparent;transition:transform .25s ease;}
+  .card:hover .card-img{ transform:scale(1.04); }
+  .img-preview{display:block;cursor:zoom-in;}
+
+  /* Ручное листание карусели */
+  .card-nav-btn{
+    position:absolute; top:50%; transform:translateY(-50%);
+    background:rgba(0,0,0,.38); color:#fff; border:none; width:34px; height:34px; border-radius:999px;
+    display:grid; place-items:center; cursor:pointer; backdrop-filter:blur(4px);
+    box-shadow:0 4px 10px rgba(0,0,0,.22); padding:0;
+  }
+  .card-nav-btn:hover{ background:rgba(0,0,0,.58); }
+  .card-prev{ left:8px; }
+  .card-next{ right:8px; }
+  .card-idx{
+    position:absolute; bottom:8px; right:8px;
+    background:rgba(0,0,0,.38); color:#fff; font-size:.85em; padding:2px 8px; border-radius:10px;
+  }
+
+  /* Сетевые элементы */
+  .card-body{padding:16px;display:grid;gap:8px;}
+  .gallery.compact .card-body{padding:12px;gap:6px;}
+  .card-body .meta{display:flex;flex-wrap:wrap;gap:8px 12px;color:var(--muted);font-size:.95em;}
+  .dim{opacity:.32; filter:saturate(.85);}
+
+  /* Кнопки и формы */
+  .btn{
+    background:var(--accent);color:var(--accent-contrast);border:none;
+    padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600;min-width:120px;text-align:center;
+    box-shadow:0 2px 8px var(--shadow); transition:transform .08s ease, box-shadow .18s ease, filter .18s ease;
+  }
+  .btn:hover{transform:translateY(-1px); box-shadow:0 6px 16px var(--shadow);}
+  .btn.secondary{
+    background:transparent;color:var(--text);border:1px solid var(--section-ring);
+  }
+  .btn.secondary:hover{
+    background:color-mix(in srgb, var(--card) 86%, var(--accent) 14%);
+    border-color: color-mix(in srgb, var(--border) 40%, var(--accent) 60%);
+  }
+  .btn:disabled{opacity:.6;cursor:not-allowed;}
+  .toolbar{display:flex; gap:8px; flex-wrap:wrap; margin:6px 0 12px;}
+
+  /* Формы */
+  input,textarea,select{
+    width:100%;padding:12px;margin-top:10px;margin-bottom:14px;border:1px solid var(--border);border-radius:8px;
+    font-family:inherit;font-size:1em;background:var(--card);color:var(--text); box-shadow:0 1px 0 rgba(0,0,0,.02) inset;
+  }
+  label{font-weight:600;}
+  input[type="submit"],.submit{background:var(--accent);color:var(--accent-contrast);border:none;cursor:pointer;transition:transform .05s ease;}
+  input[type="submit"]:hover,.submit:hover{transform:translateY(-1px);}
+  input:invalid,textarea:invalid,select:invalid{border-color:#ef4444;}
+  input:valid,textarea:valid,select:valid{border-color:color-mix(in srgb, var(--border) 60%, var(--focus) 40%);}
+  #price,#mortgageResult,#keyRateStatus{font-weight:bold;}
+
+  /* Появление секций (JS добавляет .anim-shown) */
+  .fade-in{opacity:0;transform:translateY(20px);}
+  .fade-in.anim-shown{animation:fadeIn .8s ease-out forwards;}
+  @keyframes fadeIn{to{opacity:1;transform:translateY(0);}}
+
+  /* Эффекты */
+  .shake{animation:shake .28s ease;}
+  @keyframes shake{10%,90%{transform:translateX(-1px);}20%,80%{transform:translateX(2px);}30%,50%,70%{transform:translateX(-4px);}40%,60%{transform:translateX(4px);}}
+
+  /* Таблица сравнения */
+  .compare-table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:12px;border:1px solid var(--border);}
+  .compare-table th,.compare-table td{border-bottom:1px solid var(--border);padding:12px;text-align:left;vertical-align:top;background:var(--card);}
+  .compare-table th{background:color-mix(in srgb, var(--card) 92%, var(--accent) 8%);font-weight:700;}
+
+  /* Toast */
+  .toast{
+    position:fixed;bottom:calc(20px + var(--safe-bottom));right:20px;background:var(--accent);color:var(--accent-contrast);
+    padding:10px 14px;border-radius:10px;box-shadow:0 4px 16px var(--shadow);opacity:0;transform:translateY(10px);transition:all .25s ease;z-index:1000;
+  }
+  .toast.show{opacity:1;transform:translateY(0);}
+
+  /* Back-to-top: показываем по .show (JS) */
+  #backToTop{
+    position:fixed;right:18px;bottom:calc(84px + var(--safe-bottom));background:var(--accent);color:var(--accent-contrast);
+    border:none;padding:10px 12px;border-radius:999px;cursor:pointer;box-shadow:0 2px 10px var(--shadow);opacity:0;transform:translateY(10px);transition:all .2s ease;z-index:1000;
+  }
+  #backToTop.show{opacity:1;transform:translateY(0);}
+
+  /* Sticky CTA */
+  .sticky-cta{
+    position:sticky;bottom:0;z-index:9;background:color-mix(in srgb, var(--bg) 82%, var(--accent) 18%);
+    border-top:1px solid var(--section-ring);padding:10px 16px calc(10px + var(--safe-bottom));
+    display:flex;justify-content:center;gap:12px;backdrop-filter:saturate(1.1) blur(6px);
+  }
+  .sticky-cta .btn{ background:var(--accent); color:var(--accent-contrast); }
+
+  /* Футер */
+  footer{padding:20px;text-align:center;color:var(--muted);}
+
+  /* Карта */
+  .map-embed{width:100%;height:380px;border:0;border-radius:12px;}
+
+  /* Мини-диаграмма */
+  .chart-card{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:12px;}
+  .chart-legend{display:flex; gap:12px; flex-wrap:wrap; margin-top:8px; font-size:.95em;}
+  .chart-legend span{display:inline-flex; align-items:center; gap:6px;}
+  .chart-legend i{display:inline-block; width:12px; height:12px; border-radius:3px;}
+
+  /* Модальное изображение */
+  #modalImg{
+    position:fixed; inset:0; z-index:9999; display:grid; place-items:center;
+    background:rgba(0,0,0,.85); padding:2vh; opacity:0; visibility:hidden;
+    transition:opacity .2s ease, visibility .2s ease;
+  }
+  #modalImg[aria-hidden="false"]{ opacity:1; visibility:visible; }
+  #modalImg__img{ max-width:90vw; max-height:90vh; border-radius:12px; box-shadow:0 10px 40px rgba(0,0,0,.5); background:#111;}
+  [data-theme="dark"] #modalImg__img{ background:#f4f1ee; }
+  @media (prefers-color-scheme: dark){
+    :root #modalImg__img{ background:#f4f1ee; }
+  }
+  #modalImg__close{
+    position:absolute; top:14px; right:14px; background:rgba(255,255,255,.12);
+    color:#fff; border:0; border-radius:10px; padding:8px 10px; cursor:pointer; backdrop-filter:blur(4px);
+  }
+  /* Навигация в модалке */
+  #modalImg__prev,#modalImg__next{
+    position:absolute; top:50%; transform:translateY(-50%);
+    background:rgba(255,255,255,.14); color:#fff; border:0; width:40px; height:40px;
+    border-radius:999px; display:grid; place-items:center; cursor:pointer; backdrop-filter:blur(4px);
+    box-shadow:0 6px 20px rgba(0,0,0,.35);
+  }
+  #modalImg__prev{ left:16px; }
+  #modalImg__next{ right:16px; }
+  #modalImg__prev:hover,#modalImg__next:hover{ background:rgba(255,255,255,.22); }
+  #modalImg__idx{
+    position:absolute; bottom:16px; right:16px; background:rgba(255,255,255,.14); color:#fff;
+    font-size:.95em; padding:4px 10px; border-radius:10px; backdrop-filter:blur(4px);
+  }
+
+  /* Safari checkbox alignment fix for "Сравнить" */
+  .compareCheck{
+    width:16px; height:16px; margin:0; flex:0 0 auto; vertical-align:middle;
+    accent-color: currentColor;
+  }
+  @supports (-webkit-touch-callout: none){
+    .compareCheck{ transform: translateY(0.5px); }
+  }
+
+  /* Печать */
+  @media print{
+    header,nav,#toast,#backToTop,.theme-toggle,.sticky-cta{display:none !important;}
+    section{padding:0; background:#fff; border:0; box-shadow:none;}
+    a::after{content:" (" attr(href) ")";font-size:.9em;color:#555;}
+  }
+
+  /* ====== Раздел «Отделка» ====== */
+  .finishes-tabs .btn[aria-current="true"]{
+    background:color-mix(in srgb, var(--accent) 82%, var(--card) 18%);
+    color:var(--accent-contrast);
+    border-color:transparent;
+  }
+  .finish-view{display:block;}
+  .finish-view[hidden]{display:none;}
+  .fin-carousel{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 2px 10px var(--shadow);
+  }
+  .fin-carousel__wrap{
+    position:relative;
+    overflow:hidden;
+    background:color-mix(in srgb, var(--card) 90%, var(--accent) 10%);
+    min-height:220px;
+    display:block;
+    touch-action: pan-y;
+  }
+  [data-theme="dark"] .fin-carousel__wrap{ background:#f4f1ee; }
+  @media (prefers-color-scheme: dark){ :root .fin-carousel__wrap{ background:#f4f1ee; } }
+  .fin-carousel__img{
+    display:block;width:100%;height:auto;max-height:420px;object-fit:contain;object-position:center;
+    background:transparent;transition:transform .25s ease; cursor: zoom-in;
+  }
+  .fin-carousel__wrap:hover .fin-carousel__img{ transform:scale(1.02); }
+  .fin-idx{
+    position:absolute; bottom:8px; right:8px;
+    background:rgba(0,0,0,.38); color:#fff; font-size:.9em; padding:2px 8px; border-radius:10px;
+  }
+  .fin-prev{ left:10px; }
+  .fin-next{ right:10px; }
+
+  /* Улучшения «Отделки»: аккуратные пропорции и ширина (НЕ ломают старый функционал) */
+  :root{
+    --fin-max-w: clamp(320px, 92vw, 980px);
+    --fin-ratio-mobile: 1 / 1;
+    --fin-ratio-desktop: 4 / 3;
+  }
+  #finishes .fin-carousel{
+    max-width: var(--fin-max-w);
+    margin-inline: auto;
+  }
+  #finishes .fin-carousel__wrap{
+    /* Центруем контент и задаём предсказуемую высоту через пропорции */
+    display: grid;
+    place-items: center;
+    aspect-ratio: var(--fin-ratio-mobile);
+    /* min-height оставлен из старого кода для узких экранов */
+  }
+  @media (min-width: 720px){
+    #finishes .fin-carousel__wrap{
+      aspect-ratio: var(--fin-ratio-desktop);
+    }
+  }
+  #finishes .fin-carousel__img{
+    /* Перекрываем старые ограничения высоты, чтобы картинка заполняла «рамку» аккуратно */
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    object-fit: contain;
+  }
+  /* Центрируем стрелки на новой «рамке» */
+  #finishes .fin-prev, #finishes .fin-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+ /* Мобильные улучшения производительности и UX */
+.card-img-wrap,
+.fin-carousel__wrap {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+@media (hover: none) {
+  /* Убираем тяжелые hover-эффекты на мобильных */
+  .card:hover {
+    transform: none;
+    box-shadow: 0 2px 10px var(--shadow);
+  }
+  .card:hover .card-img {
+    transform: none;
+  }
+  #finishes .fin-carousel__wrap:hover .fin-carousel__img {
+    transform: none;
+  }
+}
+
+/* Мобильная типографика и сетка */
+@media (max-width: 480px) {
+  header.hero {
+    min-height: clamp(300px, 52vh, 560px);
+  }
+  section {
+    padding: 20px 16px;
+  }
+  nav ul {
+    gap: 8px 12px;
+  }
+  nav ul li a {
+    padding: 6px 8px;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+  }
+  .card-img {
+    max-height: 180px;
+  }
+  .gallery.compact .card-img-wrap img.card-img {
+    max-height: 120px;
+  }
+  .btn {
+    min-width: unset;
+    padding: 10px 12px;
+  }
+  .chart-card {
+    padding: 10px;
+  }
+  .sticky-cta {
+    gap: 8px;
+  }
+  #backToTop {
+    bottom: calc(76px + var(--safe-bottom));
+  }
+}
+
+/* Чуть мягче тени на мобильных для снижения перерисовок */
+@media (max-width: 480px) {
+      :root { --shadow-soft: 0 6px 18px rgba(0,0,0,.16); }
+    }
+  </style>
+</head>
+<body>
+  <a href="#about" class="sr-only">Перейти к содержимому</a>
+  <div class="progress" id="progress"></div>
+
+  <header class="hero">
+    <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему" aria-pressed="false" title="Сменить тему">🌗 Тема</button>
+    <div class="hero-media" aria-hidden="true">
+      <img src="house1.jpg" alt="" width="1600" height="1000" loading="eager" fetchpriority="high" decoding="async" />
+    </div>
+    <div class="hero-content">
+      <div class="brand-logo">
+        <img src="logo.png" class="logo-img" alt="Dom Veka" width="220" height="80" decoding="async" />
+      </div>
+      <h1>Dom Veka</h1>
+      <p class="tagline">Современные дома в Ленинградской области и Санкт-Петербурге</p>
+      <div class="hero-cta">
+        <a href="#gallery" class="btn">Посмотреть проекты</a>
+        <a href="#contact" class="btn">Получить консультацию</a>
+      </div>
+    </div>
+  </header>
+
+  <nav aria-label="Основная навигация" id="mainNav">
+    <ul>
+      <li><a href="#about">О компании</a></li>
+      <li><a href="#gallery">Проекты</a></li>
+      <li><a href="#finishes">Отделка</a></li>
+      <li><a href="#compare">Сравнение</a></li>
+      <li><a href="#calculator">Калькулятор</a></li>
+      <li><a href="#mortgage">Ипотека</a></li>
+      <li><a href="#qa">Районы</a></li>
+      <li><a href="#contact">Связь</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="fade-in">
+    <h2>О компании</h2>
+    <p>Dom Veka — команда профессионалов, специализирующихся на строительстве домов стоимостью от 15 до 50 млн ₽. Мы создаём комфортные, энергоэффективные и стильные дома, учитывая индивидуальные пожелания каждого клиента. Работаем в ЛО и СПб, соблюдаем сроки и гарантируем качество.</p>
+    <p class="subtle">Верифицированные подрядчики • Фиксируем сроки • Прозрачная смета • Гарантия до 5 лет</p>
+  </section>
+
+  <section id="gallery" class="fade-in" aria-labelledby="projects-heading">
+    <h2 id="projects-heading">Галерея проектов</h2>
+
+    <div class="toolbar">
+      <button class="btn" id="filterBrick" type="button">Кирпичные дома</button>
+      <button class="btn" id="filterAac" type="button">Газобетонные дома</button>
+      <button class="btn secondary" id="resetFilter" type="button">Сбросить фильтр</button>
+      <button class="btn secondary" id="viewComfort" type="button" title="Стандартный вид">Стандартный</button>
+      <button class="btn secondary" id="viewCompact" type="button" title="Компактный вид">Компактный</button>
+    </div>
+
+    <div class="subtle" style="margin-bottom:12px;">Выберите до 2 проектов для сравнения</div>
+
+    <div class="gallery" id="projectsGrid" role="list">
+      <!-- Проект 1 -->
+      <article class="card" data-id="p1" role="listitem" id="p1" data-images="house1.jpg,house1_2.jpg,house1_3.jpg,house1_4.jpg">
+        <div class="card-img-wrap" tabindex="0" aria-label="Галерея изображений проекта Проект 46">
+          <a href="house1.jpg" class="img-preview">
+            <img src="house1.jpg" alt="Проект «46» — современный одноэтажный кирпичный дом" width="1200" height="800" loading="lazy" decoding="async" class="card-img" />
+          </a>
+          <button class="card-nav-btn card-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn card-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="card-idx" aria-hidden="true">1/4</div>
+        </div>
+        <div class="card-body">
+          <h3 style="margin:0;">Проект 46</h3>
+          <div class="meta">
+            <span>Кирпичный</span><span>180 м²</span><span>4 спальни</span>
+          </div>
+          <div class="subtle">От <strong data-price="p1">—</strong> <span class="dim">(зависит от участка)</span></div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:6px;">
+            <label class="btn secondary" style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+              <input type="checkbox" class="compareCheck" data-id="p1" aria-label="Сравнить проект 46" /> Сравнить
+            </label>
+            <button class="btn" data-gen="p1" aria-controls="desc-p1">Сгенерировать описание</button>
+            <button class="btn secondary" data-share="p1" aria-label="Поделиться проектом 46" title="Поделиться">Поделиться</button>
+          </div>
+          <p class="subtle" id="desc-p1" style="margin:8px 0 0;" aria-live="polite">
+            Проект 46 — одноэтажный современный дом площадью 180 м². 4 спальни, включая мастер‑спальню; кухня‑гостиная с выходом на террасу; всего 3 санузла. Чистая архитектура и комфорт на одном уровне. Стоимость от 30 000 000 ₽; итоговая цена зависит от участка.
+          </p>
+        </div>
+      </article>
+
+      <!-- Проект 2 -->
+      <article class="card" data-id="p2" role="listitem" id="p2" data-images="house2.jpg,house2_2.jpg,house2_3.jpg,house2_4.jpg">
+        <div class="card-img-wrap" tabindex="0" aria-label="Галерея изображений проекта Проект 180">
+          <a href="house2.jpg" class="img-preview">
+            <img src="house2.jpg" alt="Проект «180» — одноэтажный современный газобетонный дом" width="1200" height="800" loading="lazy" decoding="async" class="card-img" />
+          </a>
+          <button class="card-nav-btn card-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn card-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="card-idx" aria-hidden="true">1/4</div>
+        </div>
+        <div class="card-body">
+          <h3 style="margin:0;">Проект 180</h3>
+          <div class="meta">
+            <span>Газобетонный</span><span>135 м²</span><span>3 спальни</span>
+          </div>
+          <div class="subtle">От <strong data-price="p2">—</strong></div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:6px;">
+            <label class="btn secondary" style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+              <input type="checkbox" class="compareCheck" data-id="p2" aria-label="Сравнить проект 180" /> Сравнить
+            </label>
+            <button class="btn" data-gen="p2" aria-controls="desc-p2">Сгенерировать описание</button>
+            <button class="btn secondary" data-share="p2" aria-label="Поделиться проектом 180" title="Поделиться">Поделиться</button>
+          </div>
+          <p class="subtle" id="desc-p2" style="margin:8px 0 0;" aria-live="polite">
+            Проект 180 — одноэтажный дом площадью 135 м². 3 спальни (включая мастер‑спальню), кухня‑гостиная с выходом на террасу, панорамные окна и 2 санузла. Лаконичный современный стиль и максимум дневного света.
+          </p>
+        </div>
+      </article>
+
+      <!-- Проект 3 -->
+      <article class="card" data-id="p3" role="listitem" id="p3" data-images="house3.jpg,house3_2.jpg,house3_3.jpg,house3_4.jpg,house3_5.jpg">
+        <div class="card-img-wrap" tabindex="0" aria-label="Галерея изображений проекта Проект 175">
+          <a href="house3.jpg" class="img-preview">
+            <img src="house3.jpg" alt="Проект «175» — одноэтажный современный дом из газобетона" width="1200" height="800" loading="lazy" decoding="async" class="card-img" />
+          </a>
+          <button class="card-nav-btn card-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn card-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="card-idx" aria-hidden="true">1/5</div>
+        </div>
+        <div class="card-body">
+          <h3 style="margin:0;">Проект 175</h3>
+          <div class="meta">
+            <span>Газобетонный</span><span>200 м²</span><span>3 спальни</span>
+          </div>
+          <div class="subtle">От <strong data-price="p3">—</strong> <span class="dim">(без отделки)</span></div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:6px;">
+            <label class="btn secondary" style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+              <input type="checkbox" class="compareCheck" data-id="p3" aria-label="Сравнить проект 175" /> Сравнить
+            </label>
+            <button class="btn" data-gen="p3" aria-controls="desc-p3">Сгенерировать описание</button>
+            <button class="btn secondary" data-share="p3" aria-label="Поделиться проектом 175" title="Поделиться">Поделиться</button>
+          </div>
+          <p class="subtle" id="desc-p3" style="margin:8px 0 0;" aria-live="polite">
+            175 — одноэтажный дом из газобетона в современном стиле. 200 м² грамотно организованного пространства: просторная кухнягостиная с выходом на террасу, мастерспальня с собственным санузлом и местом под гардеробную, ещё две спальни для семьи или гостей. Всего 3 санузла, чистые линии фасадов и большие окна — комфортная жизнь на одном уровне с акцентом на свет и воздух.
+          </p>
+        </div>
+      </article>
+
+      <!-- Проект 4 -->
+      <article class="card" data-id="p4" role="listitem" id="p4" data-images="polevaya1.jpg,polevaya2.jpg,polevaya3.jpg,polevaya4.jpg,polevaya5.jpg">
+        <div class="card-img-wrap" tabindex="0" aria-label="Галерея изображений проекта Проект Полевая">
+          <a href="polevaya1.jpg" class="img-preview">
+            <img src="polevaya1.jpg" alt="Проект «Полевая» — одноэтажный современный дом из газобетона" width="1200" height="800" loading="lazy" decoding="async" class="card-img" />
+          </a>
+          <button class="card-nav-btn card-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn card-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="card-idx" aria-hidden="true">1/5</div>
+        </div>
+        <div class="card-body">
+          <h3 style="margin:0;">Проект Полевая</h3>
+          <div class="meta">
+            <span>Газобетонный</span><span>150 м²</span><span>3 спальни</span>
+          </div>
+          <div class="subtle">От <strong data-price="p4">—</strong> <span class="dim">(без отделки; зависит от участка, Дранишники)</span></div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:6px;">
+            <label class="btn secondary" style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+              <input type="checkbox" class="compareCheck" data-id="p4" aria-label="Сравнить проект Полевая" /> Сравнить
+            </label>
+            <button class="btn" data-gen="p4" aria-controls="desc-p4">Сгенерировать описание</button>
+            <button class="btn secondary" data-share="p4" aria-label="Поделиться проектом Полевая" title="Поделиться">Поделиться</button>
+          </div>
+          <p class="subtle" id="desc-p4" style="margin:8px 0 0;" aria-live="polite">
+            Полевая — одноэтажный дом из газобетона в современном стиле, продуманный для комфортной жизни на одном уровне. 150 м² включают просторную кухню‑гостиную с выходом на террасу, мастер‑спальню с собственным санузлом, ещё две спальни и второй санузел. Чистые линии, большие окна и акцент на дневной свет. Бюджет без отделки — от 15 000 000 ₽; итоговая стоимость зависит от участка (деревня Дранишники).
+          </p>
+        </div>
+      </article>
+
+      <!-- Проект 5 -->
+      <article class="card" data-id="p5" role="listitem" id="p5" data-images="p32_1.jpg,p32_2.jpg,p32_3.jpg,p32_4.jpg,p32_5.jpg,p32_6.jpg">
+        <div class="card-img-wrap" tabindex="0" aria-label="Галерея изображений проекта Проект 32">
+          <a href="p32_1.jpg" class="img-preview">
+            <img src="p32_1.jpg" alt="Проект «32» — двухэтажный современный дом из газобетона" width="1200" height="800" loading="lazy" decoding="async" class="card-img" />
+          </a>
+          <button class="card-nav-btn card-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn card-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="card-idx" aria-hidden="true">1/6</div>
+        </div>
+        <div class="card-body">
+          <h3 style="margin:0;">Проект 32</h3>
+          <div class="meta">
+            <span>Газобетонный</span><span>250 м²</span><span>7 спален</span>
+          </div>
+          <div class="subtle">От <strong data-price="p5">—</strong> <span class="dim">(без отделки; зависит от участка, Дранишники, 6 соток)</span></div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:6px;">
+            <label class="btn secondary" style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+              <input type="checkbox" class="compareCheck" data-id="p5" aria-label="Сравнить проект 32" /> Сравнить
+            </label>
+            <button class="btn" data-gen="p5" aria-controls="desc-p5">Сгенерировать описание</button>
+            <button class="btn secondary" data-share="p5" aria-label="Поделиться проектом 32" title="Поделиться">Поделиться</button>
+          </div>
+          <p class="subtle" id="desc-p5" style="margin:8px 0 0;" aria-live="polite">
+            32 — двухэтажный дом из газобетона в современном стиле с продуманной планировкой для большой семьи. 250 м² включают просторную кухню‑гостиную с выходом на террасу, семь спален, среди которых есть отдельная мастер‑спальня с собственным санузлом, и ещё два полноценных санузла — всего три. Чистая архитектура, панорамные окна и акцент на естественный свет создают ощущение простора. Участок в деревне Дранишники, 6 соток: комфортная приватность и место для сада или зоны барбекю. Бюджет без отделки — от 25 000 000 ₽; итоговая стоимость зависит от особенностей участка и выбранных материалов.
+          </p>
+        </div>
+      </article>
+
+      <!-- Проект 6 -->
+      <article class="card" data-id="p6" role="listitem" id="p6" data-images="skandi1.jpg,skandi2.jpg,skandi3.jpg,skandi4.jpg">
+        <div class="card-img-wrap" tabindex="0" aria-label="Галерея изображений проекта Проект Скандинавия">
+          <a href="skandi1.jpg" class="img-preview">
+            <img src="skandi1.jpg" alt="Проект «Скандинавия» — двухэтажный современный дом из газобетона" width="1200" height="800" loading="lazy" decoding="async" class="card-img" />
+          </a>
+          <button class="card-nav-btn card-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn card-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="card-idx" aria-hidden="true">1/4</div>
+        </div>
+        <div class="card-body">
+          <h3 style="margin:0;">Проект Скандинавия</h3>
+          <div class="meta">
+            <span>Газобетонный</span><span>135 м²</span><span>3 спальни</span>
+          </div>
+          <div class="subtle">От <strong data-price="p6">—</strong> <span class="dim">(без отделки; зависит от участка, Дранишники, 8 соток)</span></div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:6px;">
+            <label class="btn secondary" style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+              <input type="checkbox" class="compareCheck" data-id="p6" aria-label="Сравнить проект Скандинавия" /> Сравнить
+            </label>
+            <button class="btn" data-gen="p6" aria-controls="desc-p6">Сгенерировать описание</button>
+            <button class="btn secondary" data-share="p6" aria-label="Поделиться проектом Скандинавия" title="Поделиться">Поделиться</button>
+          </div>
+          <p class="subtle" id="desc-p6" style="margin:8px 0 0;" aria-live="polite">
+            Проект «Скандинавия» — двухэтажный дом из газобетона, выполненный в лаконичном современном стиле. 135 м² продуманного пространства: кухня‑гостиная с выходом на террасу, мастер‑спальня и ещё две спальни; всего два санузла. Большие окна, чистые линии, максимум дневного света. Дранишники, участок 8 соток. Стоимость без отделки — от 15 000 000 ₽; итог зависит от особенностей участка и выбранных материалов.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- НОВЫЙ РАЗДЕЛ: ОТДЕЛКА -->
+  <section id="finishes" class="fade-in" aria-labelledby="finishes-heading">
+    <h2 id="finishes-heading">Отделка</h2>
+    <p>Отделка — это язык вашего пространства. У каждого свой ритм, вкус и ощущение уюта. Мы не навязываем готовые шаблоны, а помогаем сформулировать ваши предпочтения и воплотить их в точных деталях: от фактуры плитки до теплоты света. Ниже — примеры отделки по ключевым зонам дома.</p>
+
+    <div class="toolbar finishes-tabs" role="tablist" aria-label="Категории отделки">
+      <button class="btn" type="button" data-tab="bathroom" aria-current="true" role="tab" aria-controls="bathroom">Ванная</button>
+      <button class="btn" type="button" data-tab="kitchen" role="tab" aria-controls="kitchen">Кухня‑гостиная</button>
+      <button class="btn" type="button" data-tab="rooms" role="tab" aria-controls="rooms">Комнаты</button>
+    </div>
+
+    <!-- Ванная: 6 фото -->
+    <div id="bathroom" class="finish-view" role="tabpanel" aria-label="Ванная комната">
+      <h3 class="sr-only">Ванная</h3>
+      <div class="fin-carousel" data-images="bath1.jpg,bath2.jpg,bath3.jpg,bath4.jpg,bath5.jpg,bath6.jpg">
+        <div class="fin-carousel__wrap" tabindex="0" aria-label="Карусель фото отделки ванной">
+          <img src="bath1.jpg" alt="Отделка ванной — фото 1" class="fin-carousel__img" loading="lazy" decoding="async" />
+          <button class="card-nav-btn fin-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn fin-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="fin-idx" aria-hidden="true">1/6</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Кухня‑гостиная: 4 фото -->
+    <div id="kitchen" class="finish-view" role="tabpanel" aria-label="Кухня‑гостиная" hidden>
+      <h3 class="sr-only">Кухня‑гостиная</h3>
+      <div class="fin-carousel" data-images="kitchen1.jpg,kitchen2.jpg,kitchen3.jpg,kitchen4.jpg">
+        <div class="fin-carousel__wrap" tabindex="0" aria-label="Карусель фото отделки кухни-гостиной">
+          <img src="kitchen1.jpg" alt="Отделка кухни‑гостиной — фото 1" class="fin-carousel__img" loading="lazy" decoding="async" />
+          <button class="card-nav-btn fin-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn fin-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="fin-idx" aria-hidden="true">1/4</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Комнаты: 8 фото -->
+    <div id="rooms" class="finish-view" role="tabpanel" aria-label="Комнаты" hidden>
+      <h3 class="sr-only">Комнаты</h3>
+      <div class="fin-carousel" data-images="room1.jpg,room2.jpg,room3.jpg,room4.jpg,room5.jpg,room6.jpg,room7.jpg,room8.jpg">
+        <div class="fin-carousel__wrap" tabindex="0" aria-label="Карусель фото отделки комнат">
+          <img src="room1.jpg" alt="Отделка комнаты — фото 1" class="fin-carousel__img" loading="lazy" decoding="async" />
+          <button class="card-nav-btn fin-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="card-nav-btn fin-next" type="button" aria-label="Следующее фото">›</button>
+          <div class="fin-idx" aria-hidden="true">1/8</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="compare" class="fade-in" hidden>
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+      <h2>Сравнение проектов</h2>
+      <button class="btn secondary" id="clearCompare">Очистить сравнение</button>
+    </div>
+    <div id="compareHint" class="subtle" style="margin-bottom:12px;">Выберите два проекта для сравнения</div>
+    <div id="compareTableWrap" aria-live="polite"></div>
+  </section>
+
+  <section id="calculator" class="fade-in">
+    <h2>Калькулятор стоимости</h2>
+
+    <label for="area">Площадь дома (м²):</label>
+    <input type="number" id="area" placeholder="Например, 250" min="50" max="1000" step="10" inputmode="numeric" autocomplete="off" />
+
+    <label for="type">Строительство:</label>
+    <select id="type">
+      <option value="build_nomats" data-price="20000">Без материалов — 20 000 ₽/м²</option>
+      <option value="build_with" data-price="50000">С материалами — 50 000 ₽/м²</option>
+    </select>
+
+    <label for="finish">Отделка:</label>
+    <select id="finish">
+      <option value="finish_none" data-price="0">Без отделки</option>
+      <option value="finish_nomats" data-price="20000">Без материалов — 20 000 ₽/м²</option>
+      <option value="finish_with" data-price="50000">С материалами — 50 000 ₽/м²</option>
+    </select>
+
+    <p id="price" role="status" aria-live="polite">Стоимость: —</p>
+
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <button class="btn" id="usePriceForMortgage" disabled>Передать стоимость в ипотечный калькулятор</button>
+      <button class="btn secondary" id="copyEstimate" disabled>Скопировать расчёт</button>
+    </div>
+
+    <p class="subtle">Расчёт ориентировочный и не является публичной офертой.</p>
+
+    <div class="chart-card" aria-live="polite">
+      <h3 style="margin:6px 0 8px;">Ставки по работам (₽/м²)</h3>
+      <div id="priceChart"></div>
+      <div class="chart-legend">
+        <span><i style="background: var(--accent);"></i> Строительство</span>
+        <span><i style="background: color-mix(in srgb, var(--accent) 60%, #10b981 40%);"></i> Отделка</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="mortgage" class="fade-in">
+    <h2>Ипотечный калькулятор</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:0;">
+      <label for="homePrice">Стоимость дома (₽):</label>
+      <input type="text" id="homePrice" placeholder="Например, 25 000 000" inputmode="numeric" autocomplete="off" />
+
+      <label for="downPayment">Первоначальный взнос (₽):</label>
+      <input type="text" id="downPayment" placeholder="Например, 5 000 000" inputmode="numeric" autocomplete="off" />
+
+      <label for="rate">Ставка, % годовых:</label>
+      <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+        <input type="number" id="rate" placeholder="Например, 15" min="1" max="40" step="0.1" inputmode="decimal" style="flex:1 1 220px;" />
+        <button class="btn secondary" id="refreshKeyRate" type="button" title="Обновить по ключевой ставке ЦБ">Обновить ставку ЦБ</button>
+      </div>
+      <p id="keyRateStatus" class="subtle" aria-live="polite"></p>
+
+      <label for="years">Срок, лет:</label>
+      <input type="number" id="years" placeholder="Например, 20" min="1" max="40" step="1" inputmode="numeric" />
+    </div>
+
+    <button class="btn" id="calcMortgage">Рассчитать платёж</button>
+    <p id="mortgageResult" role="status" aria-live="polite">—</p>
+    <p class="subtle">Подсказка: комфортная нагрузка — не более 30–40% от дохода семьи.</p>
+  </section>
+
+  <section id="qa" class="fade-in">
+    <h2>Информация по районам</h2>
+
+    <label for="district">Введите район/населённый пункт:</label>
+    <input type="text" id="district" placeholder="Например, Сестрорецк, Парголово, Всеволожск" list="districtList" />
+    <datalist id="districtList">
+      <option value="Приморский"></option>
+      <option value="Сестрорецк"></option>
+      <option value="Парголово"></option>
+      <option value="Выборгский"></option>
+      <option value="Всеволожск"></option>
+      <option value="Комарово"></option>
+      <option value="Зеленогорск"></option>
+      <option value="Кудрово"></option>
+      <option value="Пушкин"></option>
+      <option value="Павловск"></option>
+      <option value="Сертолово"></option>
+      <option value="Мурино"></option>
+      <option value="Дранишники"></option>
+    </datalist>
+
+    <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
+      <button class="btn" id="askDistrict" type="button">Показать информацию</button>
+      <button class="btn secondary" id="clearDistrict" type="button">Очистить</button>
+    </div>
+
+    <div id="districtInfo" style="margin-top:12px;" aria-live="polite"></div>
+
+    <div id="districtMapWrap" style="margin-top:12px;">
+      <iframe id="districtMap" class="map-embed" src="https://www.google.com/maps?q=Saint%20Petersburg&output=embed" loading="lazy" title="Карта районов — Санкт-Петербург и ЛО" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Связаться по email</h2>
+    <form id="emailForm" aria-label="Форма связи">
+      <input type="text" name="honeypot" aria-hidden="true" tabindex="-1" class="sr-only" autocomplete="off" />
+      <label for="name">Ваше имя</label>
+      <input type="text" id="name" name="name" placeholder="Иван" required autocomplete="name" />
+      <label for="email">Ваш email</label>
+      <input type="email" id="email" name="email" placeholder="name@example.com" required autocomplete="email" />
+      <label for="message">Сообщение</label>
+      <textarea id="message" name="message" placeholder="Расскажите, какой дом вы планируете" required></textarea>
+      <label for="preferredTime">Удобное время для звонка</label>
+      <input type="text" id="preferredTime" name="preferredTime" placeholder="Например, завтра с 12:00 до 16:00" autocomplete="off" />
+      <input type="submit" value="Открыть письмо в почтовом клиенте" class="submit" />
+    </form>
+    <p id="contactStatus" class="subtle" role="status" aria-live="polite"></p>
+    <div style="margin-top:8px;">
+      <a class="btn secondary" href="mailto:infodomveka@mail.ru">Написать на infodomveka@mail.ru</a>
+    </div>
+  </section>
+
+  <div class="sticky-cta">
+    <a href="#contact" class="btn">Запросить консультацию</a>
+    <a href="mailto:infodomveka@mail.ru" class="btn secondary">Написать на email</a>
+  </div>
+
+  <footer>
+  &copy; <span id="year"></span> Dom Veka. Все права защищены. |
+  <a href="mailto:infodomveka@mail.ru">infodomveka@mail.ru</a> |
+  <a href="tel:+79214243939">7 921 424 39 39</a>
+</footer>
+
+<button id="backToTop" aria-label="Наверх" title="Наверх">⬆</button>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- Модалка полноразмерного изображения -->
+<div id="modalImg" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Просмотр изображения">
+  <button id="modalImg__close" type="button" aria-label="Закрыть">✕</button>
+  <button id="modalImg__prev" type="button" aria-label="Предыдущее фото">‹</button>
+  <button id="modalImg__next" type="button" aria-label="Следующее фото">›</button>
+  <div id="modalImg__idx" aria-live="polite">—</div>
+  <img id="modalImg__img" alt="">
+</div>
+<script>
+/* Dom Veka — полный JS (исправленный и полный)
+Функционал:
+- Прогресс-бар прокрутки (transform: scaleX) и кнопка "Наверх" (класс .show)
+- Тема с сохранением в localStorage, управление через [data-theme] + обновление <meta name="theme-color">
+- Плавные анимации появления секций (.fade-in + .anim-shown)
+- Галерея проектов: мини-карусели в карточках, модалка полноэкранного просмотра, шэринг, генерация описаний
+- Фильтры и режимы отображения галереи (стандартный/компактный)
+- Сравнение до 2 проектов
+- Калькулятор стоимости + мини-график ставок
+- Ипотечный калькулятор (аннуитет) + "обновить ставку"
+- Информация по районам + карта
+- Email-форма с формированием mailto на infodomveka@mail.ru
+- Тосты (уведомления)
+*/
+
+(function () {
+  'use strict';
+
+  // ========= Утилиты =========
+  const qs = (sel, root = document) => root.querySelector(sel);
+  const qsa = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
+  const onlyDigits = (s) => (s || '').toString().replace(/[^\d]/g, '');
+  const formatMoney = (num) => (num === null || num === undefined || isNaN(num) ? '—' : Number(num).toLocaleString('ru-RU'));
+
+  let toastTimer;
+  function showToast(message) {
+    const toast = qs('#toast');
+    if (!toast) return;
+    toast.textContent = message;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2600);
+  }
+
+  // ========= Базовые элементы =========
+  const backToTopBtn = qs('#backToTop');
+  const themeToggle = qs('#themeToggle');
+  const progress = qs('#progress');
+  const dynamicThemeMeta = qs('#dynamic-theme-color');
+  const yearSpan = qs('#year');
+
+  // ========= Инициализация =========
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  function init() {
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+  initTheme();
+  initScrollUI();
+  initFadeIn();
+  initProjectCards();
+  initGalleryFiltersAndViews();
+  initCompare();
+  initCostCalculator();
+  initMortgageCalculator();
+  initDistricts();
+  initEmailForm();
+  initGlobalShortcuts();
+  fillProjectPrices();
+  initFinishes(); // 
+}
+
+
+  // ========= Тема (через data-theme + обновление meta theme-color) =========
+  function initTheme() {
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initial = saved === 'dark' || saved === 'light' ? saved : prefersDark ? 'dark' : 'light';
+
+    setTheme(initial);
+
+    themeToggle?.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme') || (prefersDark ? 'dark' : 'light');
+      const next = cur === 'dark' ? 'light' : 'dark';
+      setTheme(next);
+      showToast(next === 'dark' ? 'Тёмная тема' : 'Светлая тема');
+    });
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      document.body.style.colorScheme = theme;
+      localStorage.setItem('theme', theme);
+      if (themeToggle) {
+        themeToggle.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+        themeToggle.textContent = theme === 'dark' ? '☀️ Тема' : '🌙 Тема';
+      }
+      if (dynamicThemeMeta) {
+        const cssColor = getComputedStyle(document.documentElement).getPropertyValue('--theme-color').trim();
+        dynamicThemeMeta.setAttribute('content', cssColor || (theme === 'dark' ? '#0e1524' : '#f3f4f6'));
+      }
+    }
+  }
+
+  // ========= Прогресс-бар и “Наверх” (класс .show) =========
+  function initScrollUI() {
+    const onScroll = () => {
+      const scTop = window.scrollY || document.documentElement.scrollTop;
+      const H = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const ratio = H > 0 ? clamp(scTop / H, 0, 1) : 0;
+      if (progress) progress.style.transform = `scaleX(${ratio})`;
+      if (backToTopBtn) backToTopBtn.classList.toggle('show', scTop > 400);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    onScroll();
+    backToTopBtn?.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // ========= Появление секций (.fade-in + .anim-shown) =========
+  function initFadeIn() {
+    const elems = qsa('.fade-in');
+    if (!('IntersectionObserver' in window) || elems.length === 0) {
+      elems.forEach((el) => el.classList.add('anim-shown'));
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries, obs) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('anim-shown');
+            obs.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+    elems.forEach((el) => io.observe(el));
+  }
+
+  // ========= Данные проектов (для цен и описаний) =========
+  const PROJECTS = [
+    { id: 'p1', name: 'Проект 46', type: 'Кирпичный', area: 180, bedrooms: 4, baths: 3, floors: 1, lot: 0, basePricePerM2: 166667, images: ['house1.jpg', 'house1_2.jpg', 'house1_3.jpg', 'house1_4.jpg'], image: 'house1.jpg', location: 'Всеволожский район', minPriceOverride: 30000000, dependsOnLot: true },
+    { id: 'p2', name: 'Проект 180', type: 'Газобетонный', area: 135, bedrooms: 3, baths: 2, floors: 1, lot: 0, basePricePerM2: 120000, images: ['house2.jpg', 'house2_2.jpg', 'house2_3.jpg', 'house2_4.jpg'], image: 'house2.jpg', location: 'Приморский район' },
+    { id: 'p3', name: 'Проект 175', type: 'Газобетонный', area: 200, bedrooms: 4, baths: 3, lot: 0, basePricePerM2: 150000, images: ['house3.jpg', 'house3_2.jpg', 'house3_3.jpg', 'house3_4.jpg', 'house3_5.jpg'], image: 'house3.jpg', location: 'Всеволожский район', minPriceOverride: 30000000 },
+    { id: 'p4', name: 'Проект Полевая', type: 'Газобетонный', area: 150, bedrooms: 3, baths: 2, lot: 0, basePricePerM2: 100000, images: ['polevaya1.jpg', 'polevaya2.jpg', 'polevaya3.jpg', 'polevaya4.jpg', 'polevaya5.jpg'], image: 'polevaya1.jpg', location: 'Дранишники', minPriceOverride: 15000000 },
+    { id: 'p5', name: 'Проект 32', type: 'Газобетонный', area: 250, bedrooms: 7, baths: 3, lot: 6, basePricePerM2: 100000, images: ['p32_1.jpg', 'p32_2.jpg', 'p32_3.jpg', 'p32_4.jpg', 'p32_5.jpg', 'p32_6.jpg'], image: 'p32_1.jpg', location: 'Дранишники', minPriceOverride: 25000000 },
+    { id: 'p6', name: 'Проект Скандинавия', type: 'Газобетонный', area: 135, bedrooms: 3, baths: 2, lot: 8, basePricePerM2: 111112, images: ['skandi1.jpg', 'skandi2.jpg', 'skandi3.jpg', 'skandi4.jpg'], image: 'skandi1.jpg', location: 'Дранишники', minPriceOverride: 15000000 }
+  ];
+
+  // ========= Модалка изображений =========
+  const modal = qs('#modalImg');
+  const modalImg = qs('#modalImg__img');
+  const modalClose = qs('#modalImg__close');
+  const modalPrev = qs('#modalImg__prev');
+  const modalNext = qs('#modalImg__next');
+  const modalIdx = qs('#modalImg__idx');
+  let modalState = { list: [], idx: 0 };
+
+  function renderModal() {
+    if (!modal || !modalImg || !modalIdx) return;
+    const img = modalState.list[modalState.idx];
+    modalImg.src = img || '';
+    modalIdx.textContent = modalState.list.length ? `${modalState.idx + 1}/${modalState.list.length}` : '—';
+  }
+  function openModalImage(src, list = [], startIdx = 0) {
+    modalState.list = list && list.length ? list : src ? [src] : [];
+    const found = modalState.list.indexOf(src);
+    modalState.idx = found >= 0 ? found : Math.max(0, Math.min(startIdx, modalState.list.length - 1));
+    renderModal();
+    modal?.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal() {
+    modal?.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (modalImg) modalImg.src = '';
+    modalState = { list: [], idx: 0 };
+  }
+  function nextModal() {
+    if (!modalState.list.length) return;
+    modalState.idx = (modalState.idx + 1) % modalState.list.length;
+    renderModal();
+  }
+  function prevModal() {
+    if (!modalState.list.length) return;
+    modalState.idx = (modalState.idx - 1 + modalState.list.length) % modalState.list.length;
+    renderModal();
+  }
+  modalClose?.addEventListener('click', closeModal);
+  modalNext?.addEventListener('click', nextModal);
+  modalPrev?.addEventListener('click', prevModal);
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+  window.addEventListener('keydown', (e) => {
+    if (!modal || modal.getAttribute('aria-hidden') === 'true') return;
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'ArrowRight') nextModal();
+    if (e.key === 'ArrowLeft') prevModal();
+  });
+
+  // ========= Карусели в карточках проектов + действия =========
+  function initProjectCards() {
+    qsa('.card').forEach((card) => {
+      const wrap = qs('.card-img-wrap', card);
+      const img = qs('img.card-img', card);
+      const link = qs('.img-preview', card);
+      const btnPrev = qs('.card-prev', card);
+      const btnNext = qs('.card-next', card);
+      const idxBadge = qs('.card-idx', card);
+      const imgs = (card.getAttribute('data-images') || '')
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean);
+      if (!wrap || !img || !imgs.length) return;
+
+      let idx = 0;
+      const render = () => {
+        img.src = imgs[idx];
+        if (link) link.setAttribute('href', imgs[idx]);
+        if (idxBadge) idxBadge.textContent = `${idx + 1}/${imgs.length}`;
+      };
+      const next = () => {
+        idx = (idx + 1) % imgs.length;
+        render();
+      };
+      const prev = () => {
+        idx = (idx - 1 + imgs.length) % imgs.length;
+        render();
+      };
+      btnPrev?.addEventListener('click', (e) => {
+        e.preventDefault();
+        prev();
+      });
+      btnNext?.addEventListener('click', (e) => {
+        e.preventDefault();
+        next();
+      });
+      wrap.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          prev();
+        }
+        if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          next();
+        }
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          openModalImage(imgs[idx], imgs, idx);
+        }
+      });
+      link?.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModalImage(imgs[idx], imgs, idx);
+      });
+      // свайп
+      let startX = 0,
+        swiping = false;
+      wrap.addEventListener('pointerdown', (e) => {
+        swiping = true;
+        startX = e.clientX;
+      });
+      wrap.addEventListener('pointerup', (e) => {
+        if (!swiping) return;
+        const dx = e.clientX - startX;
+        if (Math.abs(dx) > 30) {
+          dx < 0 ? next() : prev();
+        }
+        swiping = false;
+      });
+      render();
+
+      // Генерация описания
+      qsa('[data-gen]', card).forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-gen');
+          const p = PROJECTS.find((x) => x.id === id);
+          const el = qs('#desc-' + id);
+          if (p && el) {
+            el.textContent = generateDescription(p);
+            showToast('Описание сгенерировано');
+          }
+        });
+      });
+
+      // Шэринг
+      qsa('[data-share]', card).forEach((btn) => {
+        btn.addEventListener('click', async () => {
+          const id = btn.getAttribute('data-share');
+          const p = PROJECTS.find((x) => x.id === id);
+          if (!p) return;
+          const price = formatCurrency(p.minPriceOverride ? p.minPriceOverride : p.area * p.basePricePerM2);
+          const text = `${p.name} — ${p.type}, ${p.area} м², ${p.bedrooms} спальни. Бюджет от ${price}. Локация: ${p.location}.`;
+          const url = location.href.split('#')[0] + '#gallery';
+          try {
+            if (navigator.share) {
+              await navigator.share({ title: p.name, text, url });
+              showToast('Ссылка отправлена');
+            } else if (navigator.clipboard) {
+              await navigator.clipboard.writeText(`${text}\n${url}`);
+              showToast('Ссылка скопирована');
+            } else {
+              location.href = `mailto:?subject=${encodeURIComponent(p.name)}&body=${encodeURIComponent(text + '\n' + url)}`;
+            }
+          } catch {}
+        });
+      });
+    });
+
+    function formatCurrency(n) {
+      return formatMoney(Math.round(n)) + ' ₽';
+    }
+  }
+
+  // ========= Генерация описаний проектов =========
+  function generateDescription(p) {
+    if (p.id === 'p1') {
+      const price = formatMoney(p.minPriceOverride ?? p.area * p.basePricePerM2) + ' ₽';
+      return `Проект 46 — одноэтажный современный дом, ${p.area} м²: 4 спальни (включая мастер‑спальню), кухня‑гостиная с выходом на террасу, ${p.baths} санузла. Стоимость от ${price}; итог зависит от участка.`;
+    }
+    if (p.id === 'p2') {
+      return `Проект 180 — одноэтажный дом, ${p.area} м²: 3 спальни (включая мастер‑спальню), кухня‑гостиная с выходом на террасу, панорамные окна, ${p.baths} санузла. Современный лаконичный стиль и максимум света.`;
+    }
+    const style =
+      p.type === 'Кирпичный' ? 'европейский минимализм' : p.type === 'Газобетонный' ? 'скандиминимализм' : 'современная классика';
+    const commute = /Примор|Лахта|Курорт|Сестрорецк|Лисий Нос|Парголово|Парнас/.test(p.location)
+      ? '15–30 минут до центра'
+      : '30–50 минут до центра';
+    const lotText = p.lot ? `Участок ${p.lot} соток — место для сада и барбекю. ` : '';
+    const price = formatMoney(p.minPriceOverride ? p.minPriceOverride : p.area * p.basePricePerM2) + ' ₽';
+
+    if (p.id === 'p3') {
+      return `Проект 175: одноэтажный дом из газобетона, ${p.area} м². Современная архитектура и функциональная планировка: кухнягостиная с выходом на террасу, мастерспальня с собственным санузлом, ещё три спальни — всего ${p.baths} санузла. ${lotText}Локация: ${p.location} (${commute}). Бюджет от ${price} (без отделки).`;
+    }
+    if (p.id === 'p4') {
+      return `Проект Полевая: одноэтажный дом из газобетона, ${p.area} м². Современный стиль, кухня‑гостиная с выходом на террасу, мастер‑спальня с собственным санузлом, ещё две спальни — всего ${p.baths} санузла. Локация: ${p.location}. Бюджет от ${price} (без отделки, зависит от участка).`;
+    }
+    if (p.id === 'p5') {
+      return `Проект 32: двухэтажный дом из газобетона, ${p.area} м². Современная архитектура, кухня‑гостиная с выходом на террасу, 7 спален, включая мастер‑спальню с собственным санузлом; всего ${p.baths} санузла. ${lotText}Локация: ${p.location}. Бюджет от ${price} (без отделки, зависит от участка — 6 соток).`;
+    }
+    if (p.id === 'p6') {
+      return `Проект Скандинавия: двухэтажный дом из газобетона, ${p.area} м². Чистые линии и свет: кухня‑гостиная с выходом на террасу, мастер‑спальня и ещё две спальни; всего ${p.baths} санузла. ${lotText}Локация: ${p.location}. Бюджет от ${price} (без отделки; участок ${p.lot} соток).`;
+    }
+    return `${p.name}: ${p.type.toLowerCase()}, ${p.area} м², ${p.bedrooms} спальни. Стиль — ${style}. ${lotText}Локация: ${p.location} (${commute}). Бюджет от ${price}.`;
+  }
+
+  // ========= Фильтры и режимы отображения галереи =========
+  function initGalleryFiltersAndViews() {
+    const grid = qs('#projectsGrid');
+    if (!grid) return;
+    const btnBrick = qs('#filterBrick');
+    const btnAac = qs('#filterAac');
+    const btnReset = qs('#resetFilter');
+    const btnComfort = qs('#viewComfort');
+    const btnCompact = qs('#viewCompact');
+
+    function applyFilter(type) {
+      qsa('.card', grid).forEach((c) => {
+        const t = c.querySelector('.meta')?.textContent || '';
+        if (!type) {
+          c.classList.remove('dim');
+        } else {
+          c.classList.toggle('dim', !new RegExp(type).test(t));
+        }
+      });
+    }
+    btnBrick?.addEventListener('click', () => applyFilter('Кирпичный'));
+    btnAac?.addEventListener('click', () => applyFilter('Газобетонный'));
+    btnReset?.addEventListener('click', () => applyFilter(null));
+
+    const saved = localStorage.getItem('viewMode') || 'comfort';
+    if (saved === 'compact') grid.classList.add('compact');
+    btnCompact?.addEventListener('click', () => {
+      grid.classList.add('compact');
+      localStorage.setItem('viewMode', 'compact');
+    });
+    btnComfort?.addEventListener('click', () => {
+      grid.classList.remove('compact');
+      localStorage.setItem('viewMode', 'comfort');
+    });
+  }
+
+  // ========= Сравнение проектов (до 2) =========
+  function initCompare() {
+    const compareChecks = qsa('.compareCheck');
+    const compareSection = qs('#compare');
+    const compareTableWrap = qs('#compareTableWrap');
+    const compareHint = qs('#compareHint');
+    const clearCompareBtn = qs('#clearCompare');
+
+    if (!compareChecks.length || !compareSection || !compareTableWrap) return;
+
+    function renderCompare() {
+      const selected = compareChecks.filter((cb) => cb.checked).slice(0, 2);
+      // ограничиваем до 2 и снимем лишние
+      compareChecks.forEach((cb) => {
+        if (!selected.includes(cb) && selected.length >= 2 && cb.checked) cb.checked = false;
+      });
+
+      if (selected.length === 0) {
+        compareSection.hidden = true;
+        compareTableWrap.innerHTML = '';
+        if (compareHint) compareHint.style.display = '';
+        return;
+      }
+
+      if (selected.length < 2) {
+        compareSection.hidden = false;
+        compareTableWrap.innerHTML = '<div class="subtle">Выберите второй проект для сравнения</div>';
+        if (compareHint) compareHint.style.display = 'none';
+        return;
+      }
+
+      const [c1, c2] = selected.map((cb) => cb.closest('.card'));
+      const title1 = qs('h3', c1)?.textContent || '';
+      const title2 = qs('h3', c2)?.textContent || '';
+      const m1 = qsa('.meta span', c1).map((s) => s.textContent);
+      const m2 = qsa('.meta span', c2).map((s) => s.textContent);
+
+      const rows = [
+        ['Проект', title1, title2],
+        ['Тип', m1[0], m2[0]],
+        ['Площадь', m1[1], m2[1]],
+        ['Спальни', m1[2], m2[2]]
+      ];
+
+      let html = `<table class="compare-table"><thead><tr><th>Параметр</th><th>${escapeHtml(title1)}</th><th>${escapeHtml(
+        title2
+      )}</th></tr></thead><tbody>`;
+      rows.forEach((r) => {
+        html += `<tr><th>${escapeHtml(r[0])}</th><td>${escapeHtml(r[1])}</td><td>${escapeHtml(r[2])}</td></tr>`;
+      });
+      html += '</tbody></table>';
+      compareTableWrap.innerHTML = html;
+      compareSection.hidden = false;
+      if (compareHint) compareHint.style.display = 'none';
+    }
+
+    compareChecks.forEach((cb) => cb.addEventListener('change', renderCompare));
+    clearCompareBtn?.addEventListener('click', () => {
+      compareChecks.forEach((cb) => (cb.checked = false));
+      renderCompare();
+    });
+    renderCompare();
+
+    function escapeHtml(s) {
+      return (s || '').toString().replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m]));
+    }
+  }
+
+  // ========= Калькулятор стоимости =========
+  function initCostCalculator() {
+    const priceElem = qs('#price');
+    const priceChart = qs('#priceChart');
+    const usePriceForMortgage = qs('#usePriceForMortgage');
+    const copyEstimate = qs('#copyEstimate');
+    const areaInput = qs('#area');
+    const typeSelect = qs('#type');
+    const finishSelect = qs('#finish');
+
+    if (!priceElem || !areaInput || !typeSelect || !finishSelect) return;
+
+    function drawChart(typePrice, finishPrice) {
+      const max = Math.max(typePrice, finishPrice, 1);
+      const bar = (label, value, color) => `
+        <div style="margin:8px 0;">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;">
+            <strong>${label}</strong><span class="subtle">${formatMoney(value)} / м²</span>
+          </div>
+          <div style="height:10px;background:var(--border);border-radius:999px;overflow:hidden;">
+            <div style="height:10px;width:${(value / max) * 100}%;background:${color};border-radius:999px;"></div>
+          </div>
+        </div>`;
+      priceChart.innerHTML =
+        bar('Строительство', typePrice, 'var(--accent)') +
+        bar('Отделка', finishPrice, 'color-mix(in srgb, var(--accent) 60%, #10b981 40%)');
+    }
+
+    function updateEstimate() {
+      const area = parseFloat(areaInput.value);
+      const type = parseFloat(typeSelect.selectedOptions[0]?.dataset?.price || '0');
+      const finish = parseFloat(finishSelect.selectedOptions[0]?.dataset?.price || '0');
+      if (!isNaN(area) && area > 0) {
+        const total = Math.round(area * (type + finish));
+        priceElem.textContent = `Стоимость: ${formatMoney(total)} ₽`;
+        usePriceForMortgage?.removeAttribute('disabled');
+        copyEstimate?.removeAttribute('disabled');
+        drawChart(type, finish);
+      } else {
+        priceElem.textContent = 'Стоимость: —';
+        usePriceForMortgage?.setAttribute('disabled', 'true');
+        copyEstimate?.setAttribute('disabled', 'true');
+        if (priceChart) priceChart.innerHTML = '';
+      }
+    }
+
+    areaInput.addEventListener('input', updateEstimate);
+    typeSelect.addEventListener('change', updateEstimate);
+    finishSelect.addEventListener('change', updateEstimate);
+    updateEstimate();
+
+    usePriceForMortgage?.addEventListener('click', () => {
+      const m = (priceElem.textContent || '').match(/\d[\d\s]+/);
+      const homePriceInput = qs('#homePrice');
+      if (m && homePriceInput) {
+        homePriceInput.value = m[0].replace(/\s+/g, '');
+        formatMoneyInput(homePriceInput);
+        showToast('Стоимость передана в ипотечный калькулятор');
+        location.hash = '#mortgage';
+      }
+    });
+
+    copyEstimate?.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(priceElem.textContent || '');
+        showToast('Расчёт скопирован');
+      } catch {
+        showToast('Не удалось скопировать');
+      }
+    });
+  }
+
+  // ========= Ипотечный калькулятор =========
+  function initMortgageCalculator() {
+    const homePriceInput = qs('#homePrice');
+    const downPaymentInput = qs('#downPayment');
+    const rateInput = qs('#rate');
+    const yearsInput = qs('#years');
+    const calcMortgageBtn = qs('#calcMortgage');
+    const mortgageResult = qs('#mortgageResult');
+    const refreshKeyRateBtn = qs('#refreshKeyRate');
+    const keyRateStatus = qs('#keyRateStatus');
+
+    if (!homePriceInput || !downPaymentInput || !rateInput || !yearsInput || !calcMortgageBtn || !mortgageResult) return;
+
+    [homePriceInput, downPaymentInput].forEach((inp) => {
+      inp.addEventListener('input', () => {
+        const digits = onlyDigits(inp.value);
+inp.value = digits;
+formatMoneyInput(inp); // добавляет пробелы при отображении
+});
+inp.addEventListener('blur', () => formatMoneyInput(inp));
+// при фокусе убираем пробелы для удобного редактирования
+inp.addEventListener('focus', () => {
+  inp.value = onlyDigits(inp.value);
+});
+});
+
+function valNum(inp) {
+  return parseInt(onlyDigits(inp.value), 10) || 0;
+}
+
+function calc() {
+  const price = valNum(homePriceInput);
+  const down = valNum(downPaymentInput);
+  const rate = parseFloat(rateInput.value);
+  const years = parseInt(yearsInput.value, 10);
+
+  if (!price || isNaN(rate) || !years) {
+    showToast('Пожалуйста, заполните поля корректно');
+    return;
+  }
+  if (down > price) {
+    showToast('Первоначальный взнос не может превышать стоимость');
+    return;
+  }
+
+  const loan = price - down;
+  const monthlyRate = rate / 100 / 12;
+  const n = years * 12;
+
+  // Аннуитет: A = P * i / (1 - (1+i)^-n)
+  const monthly = loan === 0 ? 0 : loan * monthlyRate / (1 - Math.pow(1 + monthlyRate, -n));
+  mortgageResult.textContent = `Ежемесячный платёж: ${formatMoney(Math.round(monthly))} ₽`;
+}
+
+calcMortgageBtn.addEventListener('click', calc);
+
+// Обновить ставку (имитация значения ключевой ставки)
+refreshKeyRateBtn?.addEventListener('click', async () => {
+  // В реальном проекте берём с бэкенда; тут — ориентир 16%
+  rateInput.value = '16';
+  keyRateStatus.textContent = 'Ставка обновлена: 16%';
+  showToast('Ставка ЦБ обновлена до 16%');
+});
+}
+
+// Общий форматтер денежных инпутов
+function formatMoneyInput(inp) {
+  const digits = onlyDigits(inp.value);
+  if (digits) {
+    inp.value = Number(digits).toLocaleString('ru-RU');
+  } else {
+    inp.value = '';
+  }
+}
+
+// ========= Районы и карта =========
+function initDistricts() {
+  const districtInput = qs('#district');
+  const askBtn = qs('#askDistrict');
+  const clearBtn = qs('#clearDistrict');
+  const districtInfo = qs('#districtInfo');
+  const map = qs('#districtMap');
+
+  if (!districtInput || !askBtn || !clearBtn || !districtInfo || !map) return;
+
+  const info = {
+    'Приморский': 'Современная инфраструктура, близость к Удельному парку и Лахта Центру. Хорошие развязки, но трафик в часы пик.',
+    'Сестрорецк': 'Курортный район с выходом к Финскому заливу, сосны, чистый воздух. Сезонная загруженность трассы.',
+    'Парголово': 'Активная застройка, сочетание новых ЖК и частного сектора. Близость к КАД и Суздальским озёрам.',
+    'Выборгский': 'Зелёный, спокойный, много школ и садов. Умеренный трафик, разнообразие участков.',
+    'Всеволожск': 'Город-спутник, активная коттеджная застройка, хорошая экология. В часы пик возможны пробки на выезд.',
+    'Комарово': 'Престижный курортный посёлок, хвойный лес и близость к морю. Высокая стоимость участков.',
+    'Зеленогорск': 'Курортная зона, пляжи и сосновые леса. Комфортное лето, выше спрос на участки.',
+    'Кудрово': 'Близость к метро, активная инфраструктура. Городские удобства рядом.',
+    'Пушкин': 'Историческая атмосфера, парки, развитая инфраструктура. Умеренная транспортная доступность.',
+    'Павловск': 'Парк, природа и тишина. Жизнь в пригороде с комфортом.',
+    'Сертолово': 'Спокойный пригород, зеленые зоны. Удобный выезд к КАД.',
+    'Мурино': 'Развитая транспортная сеть, быстрый доступ к метро. Городская плотность, доступные участки рядом.',
+    'Дранишники': 'Сельская идиллия, приватность, близость к природе. Отлично для индивидуального дома.'
+  };
+
+  askBtn.addEventListener('click', () => {
+    const val = (districtInput.value || '').trim();
+    if (!val) {
+      showToast('Укажите район или населённый пункт');
+      return;
+    }
+    const text = info[val] || 'Регион интересен для индивидуальной застройки. Уточним параметры участка и инженерии под ваш запрос.';
+    districtInfo.textContent = text;
+    const query = encodeURIComponent(val + ', Ленинградская область');
+    map.src = `https://www.google.com/maps?q=${query}&output=embed`;
+  });
+
+  clearBtn.addEventListener('click', () => {
+    districtInput.value = '';
+    districtInfo.textContent = '';
+    map.src = 'https://www.google.com/maps?q=Saint%20Petersburg&output=embed';
+  });
+}
+
+// ========= Email форма =========
+function initEmailForm() {
+  const form = qs('#emailForm');
+  const status = qs('#contactStatus');
+  if (!form) return;
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const honeypot = form.querySelector('[name="honeypot"]');
+    if (honeypot && honeypot.value) {
+      status.textContent = 'Похоже на спам. Сообщение не отправлено.';
+      return;
+    }
+
+    const name = qs('#name', form)?.value?.trim() || '';
+    const email = qs('#email', form)?.value?.trim() || '';
+    const message = qs('#message', form)?.value?.trim() || '';
+    const preferredTime = qs('#preferredTime', form)?.value?.trim() || '';
+
+    if (!name || !email || !message) {
+      status.textContent = 'Пожалуйста, заполните обязательные поля.';
+      return;
+    }
+
+    const subject = encodeURIComponent(`Dom Veka — заявка от ${name}`);
+    const bodyLines = [
+      `Имя: ${name}`,
+      `Email: ${email}`,
+      preferredTime ? `Удобное время: ${preferredTime}` : null,
+      '',
+      message
+    ].filter(Boolean);
+    const body = encodeURIComponent(bodyLines.join('\n'));
+
+    // Итоговый email
+    const mailto = `mailto:infodomveka@mail.ru?subject=${subject}&body=${body}`;
+    window.location.href = mailto;
+    status.textContent = 'Открывается почтовый клиент...';
+    showToast('Формируем письмо');
+  });
+}
+
+// ========= Глобальные хоткеи =========
+function initGlobalShortcuts() {
+  document.addEventListener('keydown', (e) => {
+    // Ctrl/Cmd + ArrowUp — наверх
+    if ((e.ctrlKey || e.metaKey) && e.key === 'ArrowUp') {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  });
+}
+
+// ========= Заполнение цен в карточках (если известны из контента) =========
+function fillProjectPrices() {
+  // Из описаний:
+  // p1: от 30 000 000 ₽
+  // p4: от 15 000 000 ₽
+  // p5: от 25 000 000 ₽
+  // p6: от 15 000 000 ₽
+  // p2, p3 — не указаны, оставим "—"
+  const priceMap = {
+    p1: 30000000,
+    p4: 15000000,
+    p5: 25000000,
+    p6: 15000000
+  };
+  qsa('strong[data-price]').forEach((el) => {
+    const id = el.getAttribute('data-price');
+    const val = priceMap[id];
+    el.textContent = val ? `${formatMoney(val)} ₽` : '—';
+  });
+}
+// ========= Отделка: вкладки, карусели, модалка =========
+function initFinishes() {
+  // Переключение вкладок
+  const tabsWrap = document.querySelector('#finishes .finishes-tabs');
+  const tabBtns = tabsWrap ? Array.from(tabsWrap.querySelectorAll('[data-tab]')) : [];
+  const views = Array.from(document.querySelectorAll('#finishes .finish-view'));
+
+  const setTab = (id) => {
+    views.forEach(v => { v.hidden = v.id !== id; });
+    tabBtns.forEach(b => b.setAttribute('aria-current', b.getAttribute('data-tab') === id ? 'true' : 'false'));
+  };
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => setTab(btn.getAttribute('data-tab')));
+    btn.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+        e.preventDefault();
+        const i = tabBtns.indexOf(btn);
+        const next = e.key === 'ArrowRight' ? (i + 1) % tabBtns.length : (i - 1 + tabBtns.length) % tabBtns.length;
+        tabBtns[next].focus();
+        setTab(tabBtns[next].getAttribute('data-tab'));
+      }
+    });
+  });
+
+  const current = tabBtns.find(b => b.getAttribute('aria-current') === 'true')?.getAttribute('data-tab') || 'bathroom';
+  setTab(current);
+
+  // Карусели во вкладках отделки
+  const carousels = Array.from(document.querySelectorAll('#finishes .fin-carousel'));
+  carousels.forEach(car => {
+    const wrap = car.querySelector('.fin-carousel__wrap');
+    const imgEl = car.querySelector('.fin-carousel__img');
+    const idxEl = car.querySelector('.fin-idx');
+    const prevBtn = car.querySelector('.fin-prev');
+    const nextBtn = car.querySelector('.fin-next');
+
+    const imgs = (car.getAttribute('data-images') || '')
+      .split(',').map(s => s.trim()).filter(Boolean);
+
+    if (!wrap || !imgEl || imgs.length === 0) return;
+
+    let idx = 0;
+
+    const render = () => {
+      imgEl.src = imgs[idx];
+      if (idxEl) idxEl.textContent = `${idx + 1}/${imgs.length}`;
+      const baseAlt = (imgEl.getAttribute('alt') || '').replace(/\s—\sфото\s\d+$/u, '');
+      imgEl.alt = `${baseAlt} — фото ${idx + 1}`;
+    };
+
+    const next = () => { idx = (idx + 1) % imgs.length; render(); };
+    const prev = () => { idx = (idx - 1 + imgs.length) % imgs.length; render(); };
+
+    prevBtn?.addEventListener('click', (e) => { e.preventDefault(); prev(); });
+    nextBtn?.addEventListener('click', (e) => { e.preventDefault(); next(); });
+
+    wrap.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
+      if (e.key === 'ArrowRight') { e.preventDefault(); next(); }
+      if (e.key === 'Enter') { e.preventDefault(); openModalImage(imgs[idx], imgs, idx); }
+    });
+
+    imgEl.addEventListener('click', (e) => {
+      e.preventDefault();
+      openModalImage(imgs[idx], imgs, idx);
+    });
+
+    let startX = 0, swiping = false;
+    wrap.addEventListener('pointerdown', (e) => { swiping = true; startX = e.clientX; wrap.setPointerCapture?.(e.pointerId); });
+    wrap.addEventListener('pointerup', (e) => {
+      if (!swiping) return;
+      const dx = e.clientX - startX;
+      if (Math.abs(dx) > 30) { dx < 0 ? next() : prev(); }
+      swiping = false;
+    });
+
+    render();
+  });
+}
+})();
+</script>
+</body>
+</html>
